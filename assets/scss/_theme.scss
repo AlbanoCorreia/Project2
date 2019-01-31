@@ -1,0 +1,172 @@
+/*---------------------------------------------
+SavePoint™
+
+A very simple front-end boilerplate.
+
+Author: Learn the Web
+Version: 0.1
+https://github.com/learningtheweb/SavePoint
+
+Section: $Theme
+
+[$CONTENTS]
+
+1. $Universal
+2. $Type
+3. $Layout
+4. $Overwrites
+----------------------------------------------*/
+
+
+
+
+/*---------------------------------------------
+[$Universal]
+
+Our site-wide settings. Useful for body, links,
+forms, etc.
+
+These are your defaults for these things.
+
+Variables are set inside _variables.scss.
+
+REMEMBER: CSS cascades, so these things could
+be overwritten lower down inside your document.
+----------------------------------------------*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+}
+
+.nav {
+    padding: 0;
+    li {
+        display: inline;
+    }
+}
+
+/*---------------------------------------------
+// ENDS [Universal]
+----------------------------------------------*/
+
+
+
+
+/*---------------------------------------------
+[$Type]
+
+We're setting up our basic type next.
+
+Note: the only reason body is in here is so
+we can set some type styles on it.
+
+We're using rems instead of ems. We tend to
+find rems a bit more manageable.
+
+See this:
+https://j.eremy.net/confused-about-rem-and-em/
+----------------------------------------------*/
+
+body {
+    font-family: $font-family;
+    color: $dark-grey;
+    line-height: $font-height;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+.font-light {
+    font-weight: $font-weight-light;
+}
+
+.font-regular {
+    font-weight: $font-weight-regular;
+}
+
+.font-heavy {
+    font-weight: $font-weight-heavy;
+}
+
+/*---------------------------------------------
+// ENDS [Type]
+----------------------------------------------*/
+
+
+
+
+/*---------------------------------------------
+[$Layout]
+
+This is where the magic happens. Any specific
+styles for layout you'll probably want to add
+here.
+
+REMEMBER: you've got a grid so you won't need
+to set many specific widths.
+----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+// ENDS [Layout]
+----------------------------------------------*/
+
+
+
+
+/*---------------------------------------------
+[$Overwrites]
+
+A core concept of CSS is that it cascades
+downwards (top to bottom), so anything we
+set lower down the file overwrites the things
+above.
+
+Having an overwrites section at the bottom
+of your document can be useful for when
+you need to...well, overwrite something.
+
+KEEP THIS AT THE BOTTOM OF YOUR DOCUMENT.
+----------------------------------------------*/
+
+
+
+
+/*---------------------------------------------
+// ENDS [Overwrites]
+----------------------------------------------*/

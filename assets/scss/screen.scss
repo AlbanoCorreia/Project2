@@ -1,0 +1,40 @@
+/*---------------------------------------------
+SavePoint™
+
+A very simple front-end boilerplate.
+
+Author: Learn the Web
+Version: 0.1
+https://github.com/learningtheweb/SavePoint
+----------------------------------------------*/
+
+
+/*---------------------------------------------
+# Getting started
+
+_theme.scss
+All your edits should be done in the
+_theme.scss file.
+
+_grid.scss
+Provided by Simple Grid, or you can swap it
+out for your preferred grid.
+
+_reset.scss
+Provided by normalize.css. Other resets
+are available.
+
+_variables.scss
+You can create colour variables and other
+things inside.
+
+## Importing other stuff
+Add them to SCSS folder, then import them in
+this file. This file is just for importing
+other stuff.
+----------------------------------------------*/
+
+@import "variables";
+@import "reset";
+@import "grid";
+@import "theme";
