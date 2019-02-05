@@ -37,7 +37,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="#">Location</a></li>
                     <li><a href="mercury-gallery-1.php">Mercury</a></li>
-                    <li><a href="#">Venus</a></li>
+                    <li><a href="venus-gallery-1.php">Venus</a></li>
                     <li><a href="#">Earth</a></li>
                     <li><a href="#">Mars</a></li>
                     <li><a href="#">Jupiter</a></li>

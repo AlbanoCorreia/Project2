@@ -28,8 +28,8 @@ require_once('assets/inc/header.php');
                     <div class="col-8">
                         <div class="content">
                         <img src="../assets/img/mercury-d.jpg" alt="Mercury Planet"/>
-                        <h1>Colors of the Innermost Planet - Mercury</h1>
-                        <p>This colorful view of Mercury was produced by using images from the color base map imaging campaign during MESSENGER's primary mission.</p><a  class="button" href="mercury-details.php">Details</a>
+                        <h1>Lowlands in Mercury's North</h1>
+                        <p>This image shows a perspective view, looking towards Mercury's north and colorized by the topographic height of the surface.</p><a  class="button" href="mercury-details.php">Details</a>
                     </div><!-- content -->
                     </div><!-- col9 -->
 
