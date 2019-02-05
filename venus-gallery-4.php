@@ -23,7 +23,7 @@
 require_once('assets/inc/header.php');
 ?>
 
-
+<div class="background">
                 <div class="row">
                     <div class="col-8">
                         <div class="content">
@@ -44,7 +44,7 @@ require_once('assets/inc/header.php');
                         </div><!-- side-bar-->
                     </div><!-- col3 -->
                 </div><!-- row -->
-
+</div> <!-- background -->
 
 
 <?php require_once('assets/inc/footer.php') ?>
