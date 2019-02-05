@@ -610,7 +610,8 @@ img {
   font-size: 16;
   color: #fff;
   padding-top: 10px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-right: 15px; }
 
 .content a {
   text-decoration: none;

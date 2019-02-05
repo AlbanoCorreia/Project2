@@ -27,19 +27,19 @@ require_once('assets/inc/header.php');
                 <div class="mercury">
                     <div class="planet-head">
                         <h1>Mercury</h1>
-                        <p><a href="mercury-gallery-1.php">Gallery</a><a href="#">Details</a></p>
+                        <p><a href="mercury-gallery-1.php">Gallery</a><a href="mercury-details.php">Details</a></p>
                 </div><!-- planet-head -->
                 </div><!-- mercury -->
         		<div class="venus">
                     <div class="planet-head">
                         <h1>Venus</h1>
-                        <p><a href="venus-gallery.php">Gallery</a><a href="#">Details</a></p>
+                        <p><a href="venus-gallery-1.php">Gallery</a><a href="venus-details.php">Details</a></p>
                 </div><!-- planet-head -->
                 </div><!-- venus -->
         		<div class="earth">
                     <div class="planet-head">
                         <h1>Earth</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                        <p><a href="earth-gallery-1.php">Gallery</a><a href="earth-details.php">Details</a></p>
                 </div><!-- planet-head -->
                 </div><!-- earth -->
         		<div class="mars">
