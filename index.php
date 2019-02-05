@@ -27,7 +27,7 @@ require_once('assets/inc/header.php');
                 <div class="mercury">
                     <div class="planet-head">
                         <h1>Mercury</h1>
-                        <p><a href="gallery-mercury.html">Gallery</a><a href="#">Details</a></p>
+                        <p><a href="mercury-gallery-1.php">Gallery</a><a href="#">Details</a></p>
                 </div><!-- planet-head -->
                 </div><!-- mercury -->
         		<div class="venus">
@@ -73,6 +73,6 @@ require_once('assets/inc/header.php');
                 </div><!-- planet-head -->
                 </div><!-- neptune -->
 
-            
+
 
 <?php require_once('assets/inc/footer.php') ?>
