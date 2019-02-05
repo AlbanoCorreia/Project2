@@ -33,7 +33,7 @@ require_once('assets/inc/header.php');
         		<div class="venus">
                     <div class="planet-head">
                         <h1>Venus</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                        <p><a href="venus-gallery.php">Gallery</a><a href="#">Details</a></p>
                 </div><!-- planet-head -->
                 </div><!-- venus -->
         		<div class="earth">

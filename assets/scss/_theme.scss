@@ -494,25 +494,31 @@ img {
 
 ----------------------------------------------*/
 
-.content h1 {
+.content h1,h2 {
     font-family: arial;
     font-size: 30px;
-    color: coral;
-    padding-top: 5px;
+    color: #fff;
+    padding-top: 20px;
     padding-left: 10px;
 }
 
 .content p{
     font-family: verdana;
     font-size: 16;
-    color: coral;
+    color: #fff;
     padding-top: 10px;
     padding-left: 10px;
 }
 
 .content a {
     text-decoration: none;
-    color: coral;
+    color: #fff;
+}
+
+.content img {
+    padding-left: 40px;
+    display: inline; /*---Displays img inline --*/
+    padding-top: 20px; /*-Moves the img down 20px-*/
 }
 
 /*---------------------------------------------
@@ -542,6 +548,53 @@ img {
 /*---------------------------------------------
 // ENDS [button]
 ----------------------------------------------*/
+
+
+/*---------------------------------------------
+[$side-text]
+
+
+----------------------------------------------*/
+
+.side-text {
+    background-color: #908e8e;
+    color: #fff;
+}
+.side-text ol {
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+.side-text li {
+    padding-top: 20px;
+}
+.side-text h2 {
+    color: #fff;
+}
+
+/*---------------------------------------------
+// ENDS [side-text]
+----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+[$background]
+
+
+----------------------------------------------*/
+
+.background {
+    background-color: #000;
+}
+
+/*---------------------------------------------
+// ENDS [background]
+----------------------------------------------*/
+
+
+
 /*---------------------------------------------
 // ENDS [Layout]
 ----------------------------------------------*/
