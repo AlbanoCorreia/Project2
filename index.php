@@ -22,24 +22,57 @@
 
 require_once('assets/inc/header.php');
 ?>
-    <section class="content">
-        <div class="row">
-            <div class="col-8">
-                <div class="content__main">
-                    <h1>SavePoint&trade;</h1>
-                </div>
-                <!-- /.content__main -->
-            </div>
-            <!-- /.col-8 -->
-            <div class="col-4">
-                <div class="content__sidebar">
-                    <h2>Sidebar</h2>
-                </div>
-                <!-- /.content__sidebar -->
-            </div>
-            <!-- /.col-4 -->
-        </div>
-        <!-- /.row -->
-    </section>
-    <!-- /.content -->
+
+
+                <div class="mercury">
+                    <div class="planet-head">
+                        <h1>Mercury</h1>
+                        <p><a href="gallery-mercury.html">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- mercury -->
+        		<div class="venus">
+                    <div class="planet-head">
+                        <h1>Venus</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- venus -->
+        		<div class="earth">
+                    <div class="planet-head">
+                        <h1>Earth</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- earth -->
+        		<div class="mars">
+                    <div class="planet-head">
+                        <h1>Mars</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- mars -->
+        		<div class="jupiter">
+                    <div class="planet-head">
+                        <h1>Jupiter</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- jupiter -->
+        		<div class="saturn">
+                    <div class="planet-head">
+                        <h1>Saturn</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- saturn -->
+        		<div class="uranus">
+                    <div class="planet-head">
+                        <h1>Uranus</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- uranus -->
+        		<div class="neptune">
+                    <div class="planet-head">
+                        <h1>Neptune</h1>
+                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+                </div><!-- planet-head -->
+                </div><!-- neptune -->
+
+            
+
 <?php require_once('assets/inc/footer.php') ?>

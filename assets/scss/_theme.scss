@@ -34,23 +34,7 @@ REMEMBER: CSS cascades, so these things could
 be overwritten lower down inside your document.
 ----------------------------------------------*/
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
-    font-size: 100%;
-}
 
-.nav {
-    padding: 0;
-    li {
-        display: inline;
-    }
-}
 
 /*---------------------------------------------
 // ENDS [Universal]
@@ -74,53 +58,6 @@ See this:
 https://j.eremy.net/confused-about-rem-and-em/
 ----------------------------------------------*/
 
-body {
-    font-family: $font-family;
-    color: $dark-grey;
-    line-height: $font-height;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.375rem;
-}
-
-h4 {
-    font-size: 1.125rem;
-}
-
-h5 {
-    font-size: 1rem;
-}
-
-h6 {
-    font-size: 0.875rem;
-}
-
-p {
-    font-size: 1.125rem;
-    font-weight: 200;
-    line-height: 1.8;
-}
-
-.font-light {
-    font-weight: $font-weight-light;
-}
-
-.font-regular {
-    font-weight: $font-weight-regular;
-}
-
-.font-heavy {
-    font-weight: $font-weight-heavy;
-}
 
 /*---------------------------------------------
 // ENDS [Type]
@@ -140,7 +77,382 @@ REMEMBER: you've got a grid so you won't need
 to set many specific widths.
 ----------------------------------------------*/
 
+/*---------------------------------------------
+[$header]
 
+
+----------------------------------------------*/
+
+.header {
+	height: 130px;
+	background-color: #000;
+    overflow: hidden;
+}
+
+    .header img {
+    	float: left;
+
+    }
+
+    .header h1{
+    	float: left;
+    	width: 30%;
+    	color: #fff;
+    	padding-top: 40px;
+    	padding-left: 20px;
+    	box-sizing: border-box;
+
+    }
+
+    .logo {
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+
+/*---------------------------------------------
+// ENDS [header]
+----------------------------------------------*/
+
+
+/*---------------------------------------------
+[$social-nav]
+
+
+----------------------------------------------*/
+
+.social-nav {
+
+	background-color: #000;
+	float: right;
+    margin: 10px;
+
+}
+
+    .social-nav li {
+        display: inline-block;
+    }
+
+    .social-nav a{
+        color: #000;
+        text-decoration: none;
+        padding: 2px;
+        display: block;
+
+    }
+
+/*---------------------------------------------
+// ENDS [social-nav]
+----------------------------------------------*/
+
+
+/*---------------------------------------------
+[$main-navbar]
+
+
+----------------------------------------------*/
+
+.main-navbar {
+    height: 50px;
+	background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	font-family: verdana;
+	font-size: 18px;
+}
+    .main-navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    .main-navbar a{
+        color: #000;
+        text-decoration: none;
+        padding: 15PX;
+        display: block;
+    }
+
+    .main-navbar a:hover {
+        color: coral;
+    }
+
+/*---------------------------------------------
+// ENDS [main-navbar]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$planet-head]
+
+
+----------------------------------------------*/
+
+.planet-head {
+	padding: 20px;
+	right: 0;
+	bottom: 5px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+.planet-head h1 {
+	 color: #fff;
+	 display: block;
+	 font-size: 48px;
+	 font-family: verdana;
+
+ }
+
+ .planet-head a {
+	 padding: 10px;
+	 text-decoration: none;
+	 color: #fff;
+	 font-family: optima;
+	 font-size: 16px;
+ }
+
+ .planet-head a:hover {
+	 color: coral;
+ }
+/*---------------------------------------------
+// ENDS [planet-head]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$mercury]
+
+
+----------------------------------------------*/
+.mercury {
+    background-color: grey;
+    background-image: url(../img/mercury-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	max-width: 1200px;
+	height: 700px;
+    position: relative;
+
+}
+
+
+
+/*---------------------------------------------
+// ENDS [mercury]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$venus]
+
+
+----------------------------------------------*/
+
+.venus {
+	background-color: yellow;
+    background-image: url(../img/venus-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    height: 700px;
+    position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [venus]
+----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+[$earth]
+
+
+----------------------------------------------*/
+
+.earth {
+    background-color: orange;
+    background-image: url(../img/earth-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    height: 700px;
+    position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [earth]
+----------------------------------------------*/
+
+
+/*---------------------------------------------
+[$mars]
+
+
+----------------------------------------------*/
+
+.mars {
+		background-color: yellow;
+	    background-image: url(../img/mars-main.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    max-width: 1200px;
+	    height: 700px;
+	    position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [mars]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$jupiter]
+
+
+----------------------------------------------*/
+
+.jupiter {
+	background-color: yellow;
+	background-image: url(../img/jupiter-main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 1200px;
+	height: 700px;
+	position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [jupiter]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$saturn]
+
+
+----------------------------------------------*/
+
+.saturn {
+	background-color: yellow;
+	background-image: url(../img/saturn-main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 1200px;
+	height: 700px;
+	position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [saturn]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$uranus]
+
+
+----------------------------------------------*/
+
+.uranus {
+	background-color: yellow;
+	background-image: url(../img/uranus-main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 1200px;
+	height: 700px;
+	position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [uranus]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$neptune]
+
+
+----------------------------------------------*/
+
+.neptune {
+	background-color: yellow;
+	background-image: url(../img/neptune-main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 1200px;
+	height: 700px;
+	position: relative;
+}
+
+/*---------------------------------------------
+// ENDS [neptune]
+----------------------------------------------*/
+
+/*---------------------------------------------
+[$footer]
+
+
+----------------------------------------------*/
+
+.footer {
+    height: 50px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+/*---------------------------------------------
+// ENDS [footer]
+----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+[$foot-nav]
+
+
+----------------------------------------------*/
+
+.foot-nav ul{
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.foot-nav a{
+	color: #000;
+	text-decoration: none;  /* removes the lines from the links */
+	padding: 15px; /* leaves 15px space inbetween the lists */
+	display: block; /* fills the all area from the link to hover and select better and centers */
+}
+
+.foot-nav a:hover {
+	background-color : coral;
+}
+
+/*---------------------------------------------
+// ENDS [foot-nav]
+----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+[$copyright]
+
+
+----------------------------------------------*/
+
+.copyright {
+    color: #000;
+	text-align: right;
+	padding: 15px;
+	font-size: 16px;
+}
+
+/*---------------------------------------------
+// ENDS [copyright]
+----------------------------------------------*/
 
 /*---------------------------------------------
 // ENDS [Layout]
