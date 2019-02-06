@@ -43,7 +43,7 @@ https://github.com/learningtheweb/SavePoint
 
 Section: $Variables
 ----------------------------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 /*---------------------------------------------
 SavePoint™
 
@@ -232,6 +232,10 @@ Variables are set inside _variables.scss.
 REMEMBER: CSS cascades, so these things could
 be overwritten lower down inside your document.
 ----------------------------------------------*/
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #000; }
+
 /*---------------------------------------------
 // ENDS [Universal]
 ----------------------------------------------*/
@@ -323,7 +327,7 @@ to set many specific widths.
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   font-family: verdana;
   font-size: 18px; }
 
@@ -367,7 +371,6 @@ to set many specific widths.
   padding: 10px;
   text-decoration: none;
   color: #fff;
-  font-family: optima;
   font-size: 16px; }
 
 .planet-head a:hover {
@@ -382,7 +385,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .mercury {
-  background-color: grey;
   background-image: url(../img/mercury-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -399,7 +401,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .venus {
-  background-color: yellow;
   background-image: url(../img/venus-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -416,7 +417,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .earth {
-  background-color: orange;
   background-image: url(../img/earth-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -433,7 +433,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .mars {
-  background-color: yellow;
   background-image: url(../img/mars-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -450,7 +449,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .jupiter {
-  background-color: yellow;
   background-image: url(../img/jupiter-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -467,7 +465,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .saturn {
-  background-color: yellow;
   background-image: url(../img/saturn-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -484,7 +481,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .uranus {
-  background-color: yellow;
   background-image: url(../img/uranus-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -501,7 +497,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .neptune {
-  background-color: yellow;
   background-image: url(../img/neptune-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -633,12 +628,11 @@ img {
 
 ----------------------------------------------*/
 .button {
-  text-align: right;
+  float: right;
   background-color: #908e8e;
   color: coral;
   padding: 10px 15px;
-  border: none;
-  margin-left: 630px; }
+  border: none; }
 
 .button:hover {
   color: #fff;
@@ -672,15 +666,16 @@ img {
 // ENDS [side-text]
 ----------------------------------------------*/
 /*---------------------------------------------
-[$background]
+[$maps]
 
 
 ----------------------------------------------*/
-.background {
-  background-color: #000; }
+.maps {
+  width: 100%;
+  display: block; }
 
 /*---------------------------------------------
-// ENDS [background]
+// ENDS [maps]
 ----------------------------------------------*/
 /*---------------------------------------------
 // ENDS [Layout]

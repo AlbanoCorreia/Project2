@@ -23,10 +23,10 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+<iframe class="maps" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJiYeCFNYEdkgRjOHYbY8bEJ4&key=AIzaSyDwRI4AQIvmEGFKlOzLVv_m3V5hObAR9ws" allowfullscreen></iframe>
 
-                
-</div><!-- background -->
+
+
 
 
 <?php require_once('assets/inc/footer.php') ?>

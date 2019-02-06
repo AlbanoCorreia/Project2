@@ -23,7 +23,7 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="main-pic-details">
                     <img src="assets/img/earth-details.jpg" alt="Planet Earth">
                 </div><!-- main-pic-details -->
@@ -108,6 +108,6 @@ require_once('assets/inc/header.php');
                         </div><!-- side-text -->
                     </div><!-- col-3 -->
                 </div><!-- row -->
-</div><!-- background -->
+
 
 <?php require_once('assets/inc/footer.php') ?>

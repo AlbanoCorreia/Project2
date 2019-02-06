@@ -33,7 +33,10 @@ Variables are set inside _variables.scss.
 REMEMBER: CSS cascades, so these things could
 be overwritten lower down inside your document.
 ----------------------------------------------*/
-
+body {
+	font-family: $nunito;
+	background-color: #000;
+}
 
 
 /*---------------------------------------------
@@ -157,7 +160,7 @@ to set many specific widths.
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 	font-family: verdana;
 	font-size: 18px;
 }
@@ -209,7 +212,6 @@ to set many specific widths.
 	 padding: 10px;
 	 text-decoration: none;
 	 color: #fff;
-	 font-family: optima;
 	 font-size: 16px;
  }
 
@@ -226,7 +228,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .mercury {
-    background-color: grey;
     background-image: url(../img/mercury-main.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -249,8 +250,7 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .venus {
-	background-color: yellow;
-    background-image: url(../img/venus-main.jpg);
+	background-image: url(../img/venus-main.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1200px;
@@ -271,7 +271,6 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .earth {
-    background-color: orange;
     background-image: url(../img/earth-main.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -292,13 +291,12 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .mars {
-		background-color: yellow;
-	    background-image: url(../img/mars-main.jpg);
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    max-width: 1200px;
-	    height: 700px;
-	    position: relative;
+    background-image: url(../img/mars-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    height: 700px;
+    position: relative;
 }
 
 /*---------------------------------------------
@@ -312,7 +310,6 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .jupiter {
-	background-color: yellow;
 	background-image: url(../img/jupiter-main.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -332,7 +329,6 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .saturn {
-	background-color: yellow;
 	background-image: url(../img/saturn-main.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -352,7 +348,6 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .uranus {
-	background-color: yellow;
 	background-image: url(../img/uranus-main.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -372,7 +367,6 @@ to set many specific widths.
 ----------------------------------------------*/
 
 .neptune {
-	background-color: yellow;
 	background-image: url(../img/neptune-main.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -534,12 +528,12 @@ img {
 ----------------------------------------------*/
 
 .button {
-    text-align: right;
+    float: right;
     background-color: #908e8e;
     color: coral;
     padding: 10px 15px;
     border: none;
-    margin-left: 630px;
+    
 }
 
 .button:hover {
@@ -558,7 +552,7 @@ img {
 ----------------------------------------------*/
 
 .side-text {
-    background-color: #908e8e;
+    background-color: $grey;
     color: #fff;
 }
 .side-text ol {
@@ -578,21 +572,23 @@ img {
 // ENDS [side-text]
 ----------------------------------------------*/
 
-
-
 /*---------------------------------------------
-[$background]
+[$maps]
 
 
 ----------------------------------------------*/
 
-.background {
-    background-color: #000;
+.maps {
+    width: 100%;
+	display: block;
 }
 
 /*---------------------------------------------
-// ENDS [background]
+// ENDS [maps]
 ----------------------------------------------*/
+
+
+
 
 
 
