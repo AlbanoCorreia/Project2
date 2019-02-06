@@ -23,9 +23,9 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="main-pic-details">
-                    <img src="assets/img/venus-details.jpg" alt="Planet Venus">
+                    <img src="./assets/img/venus-details.jpg" alt="Planet Venus">
                 </div><!-- main-pic-details -->
                 <div class="row">
                     <div class="col-9">
@@ -36,9 +36,9 @@ require_once('assets/inc/header.php');
                             <h2>Size and Distance</h2>
                             <p>With a radius of 3,760 miles (6,052 kilometers), Venus is roughly the same size as Earth — just slightly smaller. From an average distance of 67 million miles (108 million kilometers), Venus is 0.7 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. It takes sunlight 6 minutes to travel from the Sun to Venus.</p>
 
-                            <img src="assets/img/venus-small-1.jpg" alt="Venus layers">
+                            <img src="./assets/img/venus-small-1.jpg" alt="Venus layers">
 
-                            <img src="assets/img/venus-small-2.jpg" alt="Venus Shadows">
+                            <img src="./assets/img/venus-small-2.jpg" alt="Venus Shadows">
 
                             <h2>Formation</h2>
                             <p>When the solar system settled into its current layout about 4.5 billion years ago, Venus formed when gravity pulled swirling gas and dust together to form the second planet from the Sun. Like its fellow terrestrial planets, Venus has a central core, a rocky mantle and a solid crust.</p>

@@ -23,11 +23,11 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="row">
                     <div class="col-8">
                         <div class="content">
-                        <img src="../assets/img/venus-c.jpg" alt="Venus Planet"/>
+                        <img src="./assets/img/venus-c.jpg" alt="Venus Planet"/>
                         <h1>Night on Venus in Infrared from Orbiting Akatsuki</h1>
                         <p>Venus was captured in infrared light showing a surprising amount of atmospheric structure on its night side. The vertical orange terminator stripe between night and day is so wide because of light is so diffused by Venus' thick atmosphere. </p> <a  class="button" href="venus-details.php">Details</a>
                     </div><!-- content -->
@@ -44,7 +44,7 @@ require_once('assets/inc/header.php');
                         </div><!-- side-bar-->
                     </div><!-- col3 -->
                 </div><!-- row -->
-</div><!-- background -->
+
 
 
 <?php require_once('assets/inc/footer.php') ?>

@@ -14,11 +14,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SavePoint&trade;</title>
-    <link rel="icon" type="image/png" href="../assets/img/fav-ico.png" />
+    <title>Royal Astronomical Society</title>
+    <link rel="icon" type="image/png" href="./assets/img/fav-ico.png" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="../assets/css/screen.css" />
+    <link rel="stylesheet" href="./assets/css/screen.css" />
 </head>
 <body>
     <div class="container">
@@ -26,16 +26,16 @@
 
         <div class="header">
 
-            <img class="logo" src="assets/img/royal-logo.png" alt="Ras logo">
+            <img class="logo" src="./assets/img/royal-logo.png" alt="Ras logo">
 
             <h1>A Beginner's Guide of the Solar System</h1>
 
             <div class="social-nav">
 
                 <ul>
-                    <li><a href="#"><img src="assets/img/facebook-ico.png" alt="Facebook icon"></a></li>
-                    <li><a href="#"><img src="assets/img/instagram-ico.png" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="assets/img/twitter-ico.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="./assets/img/facebook-ico.png" alt="Facebook icon"></a></li>
+                    <li><a href="https://www.instagram.com/correia_albano/"><img src="./assets/img/instagram-ico.png" alt="Instagram"></a></li>
+                    <li><a href="https://twitter.com/correia_albano"><img src="./assets/img/twitter-ico.png" alt="Twitter"></a></li>
                 </ul>
 
             </div><!-- social-nav -->

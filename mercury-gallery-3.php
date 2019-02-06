@@ -23,11 +23,11 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="row">
                     <div class="col-8">
                         <div class="content">
-                        <img src="../assets/img/mercury-c.jpg" alt="Mercury Planet"/>
+                        <img src="./assets/img/mercury-c.jpg" alt="Mercury Planet"/>
                         <h1>The Impressive Rays of Hokusai - Mercury</h1>
                         <p>TThis mosaic of NAC images shows the impact crater Hokusai, located on Mercury at a latitude of 58°N. </p><a  class="button" href="mercury-details.php">Details</a>
                     </div><!-- content -->
@@ -44,7 +44,7 @@ require_once('assets/inc/header.php');
                         </div><!-- side-bar-->
                     </div><!-- col3 -->
                 </div><!-- row -->
-</div><!-- background -->
+
 
 
 <?php require_once('assets/inc/footer.php') ?>

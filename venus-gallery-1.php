@@ -23,11 +23,11 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="row">
                     <div class="col-8">
                         <div class="content">
-                        <img src="../assets/img/venus-a.jpg" alt="Venus Planet"/>
+                        <img src="./assets/img/venus-a.jpg" alt="Venus Planet"/>
                         <h1>Computer Simulated Global View of Venus</h1>
                         <p>This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image.</p> <a  class="button" href="venus-details.php">Details</a>
                     </div><!-- content -->
@@ -45,6 +45,6 @@ require_once('assets/inc/header.php');
                     </div><!-- col3 -->
                 </div><!-- row -->
 
-</div><!-- background -->
+
 
 <?php require_once('assets/inc/footer.php') ?>

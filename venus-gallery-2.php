@@ -23,11 +23,11 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="row">
                     <div class="col-8">
                         <div class="content">
-                        <img src="../assets/img/venus-b.jpg" alt="Venus Planet"/>
+                        <img src="./assets/img/venus-b.jpg" alt="Venus Planet"/>
                         <h1>Hemispheric View of Venus</h1>
                         <p>The hemispheric view of Venus, as revealed by more than a decade of radar investigations culminating in the 1990-1994 Magellan mission, is centered at 180 degrees east longitude. The Magellan spacecraft imaged more than 98 percent of Venus at a resolution of about 100 m; the effective resolution of this image is about 3 km.</p> <a  class="button" href="venus-details.php">Details</a>
                     </div><!-- content -->
@@ -44,7 +44,7 @@ require_once('assets/inc/header.php');
                         </div><!-- side-bar-->
                     </div><!-- col3 -->
                 </div><!-- row -->
-</div><!-- background -->
+
 
 
 <?php require_once('assets/inc/footer.php') ?>

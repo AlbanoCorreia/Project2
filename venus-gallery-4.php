@@ -23,11 +23,11 @@
 require_once('assets/inc/header.php');
 ?>
 
-<div class="background">
+
                 <div class="row">
                     <div class="col-8">
                         <div class="content">
-                        <img src="../assets/img/venus-d.jpg" alt="Venus Planet"/>
+                        <img src="./assets/img/venus-d.jpg" alt="Venus Planet"/>
                         <h1>Venus Cloud Patterns</h1>
                         <p>TThis picture of Venus was taken by the Galileo spacecrafts Solid State Imaging System on February 14, 1990, at a range of almost 1.7 million miles from the planet. A highpass spatial filter has been applied in order to emphasize the smaller scale cloud features, and the rendition has been colorized to a bluish hue in order to emphasize the subtle contrasts in the cloud markings and to indicate that it was taken through a violet filter. </p> <a  class="button" href="venus-details.php">Details</a>
                     </div><!-- content -->
@@ -44,7 +44,7 @@ require_once('assets/inc/header.php');
                         </div><!-- side-bar-->
                     </div><!-- col3 -->
                 </div><!-- row -->
-</div> <!-- background -->
+
 
 
 <?php require_once('assets/inc/footer.php') ?>
