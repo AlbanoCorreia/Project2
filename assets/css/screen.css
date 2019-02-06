@@ -272,7 +272,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .header {
-  height: 130px;
   background-color: #000;
   overflow: hidden; }
 
@@ -281,11 +280,14 @@ to set many specific widths.
 
 .header h1 {
   float: left;
-  width: 30%;
   color: #fff;
   padding-top: 40px;
   padding-left: 20px;
   box-sizing: border-box; }
+  @media (min-width: 600px) {
+    .header h1 {
+      /* when it gets to 500px it will go down the line and resize */
+      width: 30%; } }
 
 .logo {
   padding-left: 25px;
@@ -322,7 +324,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .main-navbar {
-  height: 50px;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -513,7 +514,6 @@ to set many specific widths.
 
 ----------------------------------------------*/
 .footer {
-  height: 50px;
   background-color: #fff;
   display: flex;
   flex-direction: row;
