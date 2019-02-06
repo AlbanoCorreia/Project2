@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="../assets/img/fav-ico.png" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="/assets/css/screen.css" />
+    <link rel="stylesheet" href="../assets/css/screen.css" />
 </head>
 <body>
     <div class="container">
