@@ -24,26 +24,26 @@ require_once('assets/inc/header.php');
 ?>
 
 
-                <div class="row">
-                    <div class="col-8">
-                        <div class="content">
-                        <img src="./assets/img/venus-d.jpg" alt="Venus Planet"/>
-                        <h1>Venus Cloud Patterns</h1>
-                        <p>TThis picture of Venus was taken by the Galileo spacecrafts Solid State Imaging System on February 14, 1990, at a range of almost 1.7 million miles from the planet. A highpass spatial filter has been applied in order to emphasize the smaller scale cloud features, and the rendition has been colorized to a bluish hue in order to emphasize the subtle contrasts in the cloud markings and to indicate that it was taken through a violet filter. </p> <a  class="button" href="venus-details.php">Details</a>
-                    </div><!-- content -->
-                    </div><!-- col9 -->
+<div class="row">
+    <div class="col-8">
+        <div class="content">
+            <img src="./assets/img/venus-d.jpg" alt="Venus Planet"/>
+            <h1>Venus Cloud Patterns</h1>
+            <p>TThis picture of Venus was taken by the Galileo spacecrafts Solid State Imaging System on February 14, 1990, at a range of almost 1.7 million miles from the planet. A highpass spatial filter has been applied in order to emphasize the smaller scale cloud features, and the rendition has been colorized to a bluish hue in order to emphasize the subtle contrasts in the cloud markings and to indicate that it was taken through a violet filter. </p> <a  class="button" href="venus-details.php">Details</a>
+        </div><!-- content -->
+    </div><!-- col8 -->
 
-                    <div class="col-4">
-                        <div class="side-bar">
-                            <ul>
-                                <li><a href="venus-gallery-1.php"><img src="./assets/img/venus-side-a.jpg" alt="Mercury Planet 1"></a></li>
-                                <li><a href="venus-gallery-2.php"><img src="./assets/img/venus-side-b.jpg" alt="Mercury Planet 2"></a></li>
-                                <li><a href="venus-gallery-3.php"><img src="./assets/img/venus-side-c.jpg" alt="Mercury Planet 3"></a></li>
-                                <li><a href="venus-gallery-4.php"><img src="./assets/img/venus-side-d.jpg" alt="Mercury Planet 4"></a></li>
-                            </ul>
-                        </div><!-- side-bar-->
-                    </div><!-- col3 -->
-                </div><!-- row -->
+    <div class="col-4">
+        <div class="side-bar">
+            <ul>
+                <li><a href="venus-gallery-1.php"><img src="./assets/img/venus-side-a.jpg" alt="Mercury Planet 1"></a></li>
+                <li><a href="venus-gallery-2.php"><img src="./assets/img/venus-side-b.jpg" alt="Mercury Planet 2"></a></li>
+                <li><a href="venus-gallery-3.php"><img src="./assets/img/venus-side-c.jpg" alt="Mercury Planet 3"></a></li>
+                <li><a href="venus-gallery-4.php"><img src="./assets/img/venus-side-d.jpg" alt="Mercury Planet 4"></a></li>
+            </ul>
+        </div><!-- side-bar-->
+    </div><!-- col4 -->
+</div><!-- row -->
 
 
 

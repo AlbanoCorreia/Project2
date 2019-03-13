@@ -24,26 +24,26 @@ require_once('assets/inc/header.php');
 ?>
 
 
-                <div class="row">
-                    <div class="col-8">
-                        <div class="content">
-                        <img src="./assets/img/venus-a.jpg" alt="Venus Planet"/>
-                        <h1>Computer Simulated Global View of Venus</h1>
-                        <p>This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image.</p> <a  class="button" href="venus-details.php">Details</a>
-                    </div><!-- content -->
-                    </div><!-- col9 -->
+<div class="row">
+    <div class="col-8">
+        <div class="content">
+            <img src="./assets/img/venus-a.jpg" alt="Venus Planet"/>
+            <h1>Computer Simulated Global View of Venus</h1>
+            <p>This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image.</p> <a  class="button" href="venus-details.php">Details</a>
+        </div><!-- content -->
+    </div><!-- col8 -->
 
-                    <div class="col-4">
-                        <div class="side-bar">
-                            <ul>
-                                <li><a href="venus-gallery-1.php"><img src="./assets/img/venus-side-a.jpg" alt="Mercury Planet 1"></a></li>
-                                <li><a href="venus-gallery-2.php"><img src="./assets/img/venus-side-b.jpg" alt="Mercury Planet 2"></a></li>
-                                <li><a href="venus-gallery-3.php"><img src="./assets/img/venus-side-c.jpg" alt="Mercury Planet 3"></a></li>
-                                <li><a href="venus-gallery-4.php"><img src="./assets/img/venus-side-d.jpg" alt="Mercury Planet 4"></a></li>
-                            </ul>
-                        </div><!-- side-bar-->
-                    </div><!-- col3 -->
-                </div><!-- row -->
+    <div class="col-4">
+        <div class="side-bar">
+            <ul>
+                <li><a href="venus-gallery-1.php"><img src="./assets/img/venus-side-a.jpg" alt="Mercury Planet 1"></a></li>
+                <li><a href="venus-gallery-2.php"><img src="./assets/img/venus-side-b.jpg" alt="Mercury Planet 2"></a></li>
+                <li><a href="venus-gallery-3.php"><img src="./assets/img/venus-side-c.jpg" alt="Mercury Planet 3"></a></li>
+                <li><a href="venus-gallery-4.php"><img src="./assets/img/venus-side-d.jpg" alt="Mercury Planet 4"></a></li>
+            </ul>
+        </div><!-- side-bar-->
+    </div><!-- col4 -->
+</div><!-- row -->
 
 
 

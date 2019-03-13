@@ -15,10 +15,30 @@ Section: $Theme
 2. $Type
 3. $Layout
 4. $Overwrites
+5. $header
+6. $social-nav
+7. $main-navbar
+8. $planet-head
+9. $mercury
+10. $venus
+11. $earth
+12. $mars
+13. $jupiter
+14. $saturn
+15. $uranus
+16. $neptune
+17. $footer
+18. $foot-nav
+19. $copyright
+20. $side-bar gallery
+21. $img
+22. $content
+23. $button
+24. $side-text
+25. $maps
+26. $Overwrites
+
 ----------------------------------------------*/
-
-
-
 
 /*---------------------------------------------
 [$Universal]
@@ -33,18 +53,15 @@ Variables are set inside _variables.scss.
 REMEMBER: CSS cascades, so these things could
 be overwritten lower down inside your document.
 ----------------------------------------------*/
+
 body {
 	font-family: $nunito;
 	background-color: #000;
 }
 
-
 /*---------------------------------------------
 // ENDS [Universal]
 ----------------------------------------------*/
-
-
-
 
 /*---------------------------------------------
 [$Type]
@@ -61,13 +78,9 @@ See this:
 https://j.eremy.net/confused-about-rem-and-em/
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
 // ENDS [Type]
 ----------------------------------------------*/
-
-
-
 
 /*---------------------------------------------
 [$Layout]
@@ -82,80 +95,59 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$header]
-
-
 ----------------------------------------------*/
 
 .header {
 	background-color: #000;
     overflow: hidden;
 }
-
-    .header img {
+.header img {
     	float: left;
-
-    }
-
-    .header h1{
+}
+.header h1{
 		float: left;
     	color: #fff;
     	padding-top: 40px;
     	padding-left: 20px;
     	box-sizing: border-box;
-		@media (min-width: 600px) { /* when it gets to 500px it will go down the line and resize */
-		    width: 30%;
-		}
-
-    }
-
-    .logo {
+	@media (min-width: 600px) { /* when it gets to 500px it will go down the line and resize */
+		 width: 30%;
+	}
+}
+.logo {
         padding-left: 25px;
         padding-top: 20px;
-    }
-
-
+}
 
 /*---------------------------------------------
 // ENDS [header]
 ----------------------------------------------*/
 
-
-
 /*---------------------------------------------
 [$social-nav]
-
-
 ----------------------------------------------*/
 
 .social-nav {
-
 	background-color: #000;
 	float: right;
     margin: 10px;
-
 }
-
-    .social-nav li {
+.social-nav li {
         display: inline-block;
-    }
-
-    .social-nav a{
+}
+.social-nav a{
         color: #000;
         text-decoration: none;
         padding: 2px;
         display: block;
-
-    }
+}
 
 /*---------------------------------------------
 // ENDS [social-nav]
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
 [$main-navbar]
-
-
 ----------------------------------------------*/
 
 .main-navbar {
@@ -167,22 +159,20 @@ to set many specific widths.
 	font-family: verdana;
 	font-size: 18px;
 }
-    .main-navbar ul {
+.main-navbar ul {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-    }
-
-    .main-navbar a{
+}
+.main-navbar a{
         color: #000;
         text-decoration: none;
         padding: 15PX;
         display: block;
-    }
-
-    .main-navbar a:hover {
+}
+.main-navbar a:hover {
         color: coral;
-    }
+}
 
 /*---------------------------------------------
 // ENDS [main-navbar]
@@ -190,8 +180,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$planet-head]
-
-
 ----------------------------------------------*/
 
 .planet-head {
@@ -202,34 +190,30 @@ to set many specific widths.
 	left: 0px;
 	text-align: center;
 }
-
 .planet-head h1 {
 	 color: #fff;
 	 display: block;
 	 font-size: 48px;
 	 font-family: verdana;
-
  }
-
  .planet-head a {
 	 padding: 10px;
 	 text-decoration: none;
 	 color: #fff;
 	 font-size: 16px;
  }
-
  .planet-head a:hover {
 	 color: coral;
  }
+
 /*---------------------------------------------
 // ENDS [planet-head]
 ----------------------------------------------*/
 
 /*---------------------------------------------
 [$mercury]
-
-
 ----------------------------------------------*/
+
 .mercury {
     background-image: url(../img/mercury-main.jpg);
     background-repeat: no-repeat;
@@ -237,10 +221,7 @@ to set many specific widths.
 	max-width: 1200px;
 	height: 700px;
     position: relative;
-
 }
-
-
 
 /*---------------------------------------------
 // ENDS [mercury]
@@ -248,8 +229,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$venus]
-
-
 ----------------------------------------------*/
 
 .venus {
@@ -265,12 +244,8 @@ to set many specific widths.
 // ENDS [venus]
 ----------------------------------------------*/
 
-
-
 /*---------------------------------------------
 [$earth]
-
-
 ----------------------------------------------*/
 
 .earth {
@@ -286,11 +261,8 @@ to set many specific widths.
 // ENDS [earth]
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
 [$mars]
-
-
 ----------------------------------------------*/
 
 .mars {
@@ -308,8 +280,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$jupiter]
-
-
 ----------------------------------------------*/
 
 .jupiter {
@@ -327,8 +297,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$saturn]
-
-
 ----------------------------------------------*/
 
 .saturn {
@@ -346,8 +314,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$uranus]
-
-
 ----------------------------------------------*/
 
 .uranus {
@@ -365,8 +331,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$neptune]
-
-
 ----------------------------------------------*/
 
 .neptune {
@@ -384,8 +348,6 @@ to set many specific widths.
 
 /*---------------------------------------------
 [$footer]
-
-
 ----------------------------------------------*/
 
 .footer {
@@ -402,12 +364,8 @@ to set many specific widths.
 // ENDS [footer]
 ----------------------------------------------*/
 
-
-
 /*---------------------------------------------
 [$foot-nav]
-
-
 ----------------------------------------------*/
 
 .foot-nav ul{
@@ -415,14 +373,12 @@ to set many specific widths.
 	flex-wrap: wrap;
 	list-style: none;
 }
-
 .foot-nav a{
 	color: #000;
 	text-decoration: none;  /* removes the lines from the links */
 	padding: 15px; /* leaves 15px space inbetween the lists */
 	display: block; /* fills the all area from the link to hover and select better and centers */
 }
-
 .foot-nav a:hover {
 	background-color : coral;
 }
@@ -431,12 +387,8 @@ to set many specific widths.
 // ENDS [foot-nav]
 ----------------------------------------------*/
 
-
-
 /*---------------------------------------------
 [$copyright]
-
-
 ----------------------------------------------*/
 
 .copyright {
@@ -450,34 +402,26 @@ to set many specific widths.
 // ENDS [copyright]
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
-[$side-bar] Gallery
-
-
+[$side-bar] gallery
 ----------------------------------------------*/
 
 .side-bar li {
     list-style: none;
 }
 
-
 /*---------------------------------------------
 // ENDS [side-bar]
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
 [$img]
-
-
 ----------------------------------------------*/
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
-
 }
 
 /*---------------------------------------------
@@ -486,8 +430,6 @@ img {
 
 /*---------------------------------------------
 [$content]
-
-
 ----------------------------------------------*/
 
 .content h1,h2 {
@@ -497,7 +439,6 @@ img {
     padding-top: 20px;
     padding-left: 10px;
 }
-
 .content p{
     font-family: verdana;
     font-size: 16px;
@@ -506,12 +447,10 @@ img {
     padding-left: 10px;
     padding-right: 15px;
 }
-
 .content a {
     text-decoration: none;
     color: #fff;
 }
-
 .content img {
     padding-left: 40px;
     display: inline; /*---Displays img inline --*/
@@ -522,11 +461,8 @@ img {
 // ENDS [content]
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
 [$button]
-
-
 ----------------------------------------------*/
 
 .button {
@@ -535,9 +471,7 @@ img {
     color: coral;
     padding: 10px 15px;
     border: none;
-
 }
-
 .button:hover {
     color: #fff;
     background-color: coral;
@@ -546,11 +480,8 @@ img {
 // ENDS [button]
 ----------------------------------------------*/
 
-
 /*---------------------------------------------
 [$side-text]
-
-
 ----------------------------------------------*/
 
 .side-text {
@@ -576,8 +507,6 @@ img {
 
 /*---------------------------------------------
 [$maps]
-
-
 ----------------------------------------------*/
 
 .maps {
@@ -589,17 +518,9 @@ img {
 // ENDS [maps]
 ----------------------------------------------*/
 
-
-
-
-
-
 /*---------------------------------------------
 // ENDS [Layout]
 ----------------------------------------------*/
-
-
-
 
 /*---------------------------------------------
 [$Overwrites]

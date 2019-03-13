@@ -24,54 +24,54 @@ require_once('assets/inc/header.php');
 ?>
 
 
-                <div class="mercury">
-                    <div class="planet-head">
-                        <h1>Mercury</h1>
-                        <p><a href="mercury-gallery-1.php">Gallery</a><a href="mercury-details.php">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- mercury -->
-        		<div class="venus">
-                    <div class="planet-head">
-                        <h1>Venus</h1>
-                        <p><a href="venus-gallery-1.php">Gallery</a><a href="venus-details.php">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- venus -->
-        		<div class="earth">
-                    <div class="planet-head">
-                        <h1>Earth</h1>
-                        <p><a href="earth-gallery-1.php">Gallery</a><a href="earth-details.php">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- earth -->
-        		<div class="mars">
-                    <div class="planet-head">
-                        <h1>Mars</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- mars -->
-        		<div class="jupiter">
-                    <div class="planet-head">
-                        <h1>Jupiter</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- jupiter -->
-        		<div class="saturn">
-                    <div class="planet-head">
-                        <h1>Saturn</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- saturn -->
-        		<div class="uranus">
-                    <div class="planet-head">
-                        <h1>Uranus</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- uranus -->
-        		<div class="neptune">
-                    <div class="planet-head">
-                        <h1>Neptune</h1>
-                        <p><a href="#">Gallery</a><a href="#">Details</a></p>
-                </div><!-- planet-head -->
-                </div><!-- neptune -->
+<div class="mercury">
+    <div class="planet-head">
+        <h1>Mercury</h1>
+        <p><a href="mercury-gallery-1.php">Gallery</a><a href="mercury-details.php">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- mercury -->
+<div class="venus">
+    <div class="planet-head">
+        <h1>Venus</h1>
+        <p><a href="venus-gallery-1.php">Gallery</a><a href="venus-details.php">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- venus -->
+<div class="earth">
+    <div class="planet-head">
+        <h1>Earth</h1>
+        <p><a href="earth-gallery-1.php">Gallery</a><a href="earth-details.php">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- earth -->
+<div class="mars">
+    <div class="planet-head">
+        <h1>Mars</h1>
+        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- mars -->
+<div class="jupiter">
+    <div class="planet-head">
+        <h1>Jupiter</h1>
+        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- jupiter -->
+<div class="saturn">
+    <div class="planet-head">
+        <h1>Saturn</h1>
+        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- saturn -->
+<div class="uranus">
+    <div class="planet-head">
+        <h1>Uranus</h1>
+        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- uranus -->
+<div class="neptune">
+    <div class="planet-head">
+        <h1>Neptune</h1>
+        <p><a href="#">Gallery</a><a href="#">Details</a></p>
+    </div><!-- planet-head -->
+</div><!-- neptune -->
 
 
 

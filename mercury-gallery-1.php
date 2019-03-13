@@ -24,26 +24,26 @@ require_once('assets/inc/header.php');
 ?>
 
 
-                <div class="row">
-                    <div class="col-8">
-                        <div class="content">
-                        <img src="./assets/img/mercury-a.jpg" alt="Mercury Planet"/>
-                        <h1>Colors of the Innermost Planet - Mercury</h1>
-                        <p>This colorful view of Mercury was produced by using images from the color base map imaging campaign during MESSENGER's primary mission.</p> <a  class="button" href="mercury-details.php">Details</a>
-                    </div><!-- content -->
-                    </div><!-- col9 -->
+<div class="row">
+    <div class="col-8">
+        <div class="content">
+            <img src="./assets/img/mercury-a.jpg" alt="Mercury Planet"/>
+            <h1>Colors of the Innermost Planet - Mercury</h1>
+            <p>This colorful view of Mercury was produced by using images from the color base map imaging campaign during MESSENGER's primary mission.</p> <a  class="button" href="mercury-details.php">Details</a>
+        </div><!-- content -->
+    </div><!-- col8 -->
 
-                    <div class="col-4">
-                        <div class="side-bar">
-                            <ul>
-                                <li><a href="mercury-gallery-1.php"><img src="./assets/img/mercury-side-a.jpg" alt="Mercury Planet 1"></a></li>
-                                <li><a href="mercury-gallery-2.php"><img src="./assets/img/mercury-side-b.jpg" alt="Mercury Planet 2"></a></li>
-                                <li><a href="mercury-gallery-3.php"><img src="./assets/img/mercury-side-c.jpg" alt="Mercury Planet 3"></a></li>
-                                <li><a href="mercury-gallery-4.php"><img src="./assets/img/mercury-side-d.jpg" alt="Mercury Planet 4"></a></li>
-                            </ul>
-                        </div><!-- side-bar-->
-                    </div><!-- col3 -->
-                </div><!-- row -->
+    <div class="col-4">
+        <div class="side-bar">
+            <ul>
+                <li><a href="mercury-gallery-1.php"><img src="./assets/img/mercury-side-a.jpg" alt="Mercury Planet 1"></a></li>
+                <li><a href="mercury-gallery-2.php"><img src="./assets/img/mercury-side-b.jpg" alt="Mercury Planet 2"></a></li>
+                <li><a href="mercury-gallery-3.php"><img src="./assets/img/mercury-side-c.jpg" alt="Mercury Planet 3"></a></li>
+                <li><a href="mercury-gallery-4.php"><img src="./assets/img/mercury-side-d.jpg" alt="Mercury Planet 4"></a></li>
+            </ul>
+        </div><!-- side-bar-->
+    </div><!-- col4 -->
+</div><!-- row -->
 
 
 
